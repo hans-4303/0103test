@@ -4,9 +4,9 @@ const Product = ({info}) => {
   console.log(info)
 
   return (
-    <div style={{width: '300px', height: '400px'}}>
+    <div style={{maxwidth: '30vw'}}>
       {/* public 폴더 이용, img 바로 띄우기 OK */}
-      <img src={`img/${info.img}`} style={{width: '300px', height: '300px'}}></img>
+      <img src={`img/${info.img}`} style={{maxWidth: '30vw'}}></img>
       <p>{info.name}</p>
     </div>
   )

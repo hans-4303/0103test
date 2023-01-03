@@ -12,11 +12,11 @@ const Home = () => {
     /* 최상위 컨테이너 */
     <div>
       {/* 상단 이미지가 들어갈 자리 */}
-      <div>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
         <img src='img/decoration-gdc602371b_1920.jpg' style={{maxWidth: '95vw'}}></img>
       </div>
       {/* 더보기와 컴포넌트가 들어갈 자리 */}
-      <div style={{padding: '20vh 20vw'}}>
+      <div style={{maxWidth: '95vw'}}>
         <div>
           <a href="">더보기</a>
         </div>
